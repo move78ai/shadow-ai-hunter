@@ -1,6 +1,7 @@
 # Shadow AI Hunter (Community Edition)
 
-(Place your generated banner image here)
+
+![A_hightech_cybersecurity_2k_202602170514](https://github.com/user-attachments/assets/1f5a31e1-1368-449a-990a-150ea4d716b7)
 
 Identify Unauthorized "Shadow AI" Agents in Your Enterprise Network.
 
@@ -78,4 +79,5 @@ Distributed under the MIT License. See LICENSE for more information.
 
 
 Maintained by Move78 International - Securing the AI Era.
+
 
