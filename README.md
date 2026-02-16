@@ -10,46 +10,34 @@ Shadow AI Hunter is a lightweight, open-source reconnaissance tool designed to d
 
 🚀 Capabilities (v1.0)
 
-Zero-Dependency Scanning: Written in pure Python. No external binaries (like Nmap) required.
-
-Targeted Detection: Specifically hunts for TCP Port 18789 (The default OpenClaw/Moltbot signature).
-
-Multi-Threaded Engine: Scans /24 subnets in seconds.
-
-Audit Ready: Generates clear console output for immediate reporting.
+* Zero-Dependency Scanning: Written in pure Python. No external binaries (like Nmap) required.
+* Targeted Detection: Specifically hunts for TCP Port 18789 (The default OpenClaw/Moltbot signature).
+* Multi-Threaded Engine: Scans /24 subnets in seconds.
+* Audit Ready: Generates clear console output for immediate reporting.
 
 📦 Installation
 
 Prerequisites
-
-Python 3.6+
-
-Network access to the target subnet
+* Python 3.6+
+* Network access to the target subnet
 
 Setup
 
-Clone the repository:
-
+1. Clone the repository:
 git clone [https://github.com/Move78-International/shadow-ai-hunter.git](https://github.com/Move78-International/shadow-ai-hunter.git)
 cd shadow-ai-hunter
 
-
-Install dependencies (Optional, only for color output in future versions):
-
+2. Install dependencies (Optional, only for color output in future versions):
 pip install -r requirements.txt
 
 
 ⚔️ Usage
 
 Syntax:
-
 python src/shadow_hunter.py <TARGET_IP_OR_CIDR>
 
-
 Example - Scan a local subnet:
-
 python src/shadow_hunter.py 192.168.1.0/24
-
 
 Example Output:
 
@@ -69,22 +57,16 @@ Example Output:
 Please read carefully before using.
 
 This software is provided for educational and defensive audit purposes only.
-
-Do not scan networks you do not own.
-
-Do not scan networks without explicit written permission.
-
-Scanning unauthorized networks may violate the Computer Fraud and Abuse Act (CFAA) in the US, the Cybersecurity Law of the PRC in China, and other applicable local laws.
+* Do not scan networks you do not own.
+* Do not scan networks without explicit written permission.
+* Scanning unauthorized networks may violate the Computer Fraud and Abuse Act (CFAA) in the US, the Cybersecurity Law of the PRC in China, and other applicable local laws.
 
 Move78 International accepts no responsibility for unauthorized use of this tool.
 
 🗺️ Roadmap
-
-v1.0: Network Port Scanner (Current)
-
-v2.0: Agent-Based Host Scanner (Local process & file system audit)
-
-v3.0: "Sentinel" Real-time Prevention & Kill-Switch
+* v1.0: Network Port Scanner (Current)
+* v2.0: Agent-Based Host Scanner (Local process & file system audit)
+* v3.0: "Sentinel" Real-time Prevention & Kill-Switch
 
 🤝 Contributing
 
@@ -95,4 +77,5 @@ We welcome contributions! Please see CONTRIBUTING.md (coming soon) for details o
 Distributed under the MIT License. See LICENSE for more information.
 
 
-Maintained by Move78 International Securing the AI Era.
+Maintained by Move78 International - Securing the AI Era.
+
