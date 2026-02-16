@@ -1,0 +1,8 @@
+Minimal dependencies
+
+The core scanner uses standard libraries (socket, ipaddress, threading).
+
+We list colorama just in case we want to add colored terminal output later.
+
+colorama>=0.4.6
+argparse>=1.4.0
