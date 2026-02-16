@@ -1,4 +1,4 @@
-Shadow AI Hunter (Community Edition)
+# Shadow AI Hunter (Community Edition)
 
 (Place your generated banner image here)
 
@@ -93,5 +93,6 @@ We welcome contributions! Please see CONTRIBUTING.md (coming soon) for details o
 📄 License
 
 Distributed under the MIT License. See LICENSE for more information.
+
 
 Maintained by Move78 International Securing the AI Era.
